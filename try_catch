@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a = 5;
+    int b = 0;
+    int c = 15;
+    
+    try{
+        if (b==0){
+                  throw 1;
+                  }
+                  int resultado = (a/b);
+                  
+    } catch (int erro) {
+            if (erro==1){
+                         cout << "Erro de divisão por zero" << endl;
+                         }
+            }
+
+    return 0;
+}
